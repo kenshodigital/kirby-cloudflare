@@ -1,0 +1,37 @@
+{
+	"name": "kenshodigital/kirby-cloudflare",
+	"description": "Enables Cloudflare Cache for pages in Kirby projects.",
+	"type": "kirby-plugin",
+	"license": "MIT",
+	"keywords": [
+		"kirby",
+		"cms",
+		"cloudflare",
+		"cdn",
+		"cache"
+	],
+	"authors": [
+		{
+			"name": "kenshō digital",
+			"email": "mail@kensho.digital",
+			"homepage": "https://kensho.digital"
+		}
+	],
+	"support": {
+		"source": "https://github.com/kenshodigital/kirby-cloudflare",
+		"issues": "https://github.com/kenshodigital/kirby-cloudflare/issues"
+	},
+	"require": {
+		"php": "^8.5",
+		"getkirby/cms": "^5.4",
+		"getkirby/composer-installer": "^1.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"Kensho\\Cloudflare\\": "src"
+		}
+	},
+	"extra": {
+		"installer-name": "cloudflare"
+	}
+}
